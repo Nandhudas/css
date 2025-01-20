@@ -1,0 +1,132 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+
+}
+
+.content-wrapper {
+    width: 80%;
+    max-width: 1000px;
+    border: 5px solid black;
+    border-radius: 2px;
+    padding: 20px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.header .entries {
+    flex: 1;
+}
+
+.header #cus {
+    flex: 2;
+    text-align: center;
+}
+
+.header input[type="search"] {
+    flex: 1;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    height: 30px;
+}
+
+td {
+    height: 30px;
+}
+
+#cus {
+    font-size: large;
+}
+
+.pagination {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #333;
+    cursor: pointer;
+}
+
+.pagination .prev-next a {
+    border-radius: 2px;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pagination-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pagination-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actions i {
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.actions .fa-eye {
+    color: blue;
+}
+
+.actions .fa-edit {
+    color: yellow;
+}
+
+.actions .fa-trash-alt {
+    color: red;
+}
